@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --purpura: #8E278E;
+    --violeta: #262261;
+}
+
+.sem-marcadores {
+    list-style-type: none;
+}
+
+.sem-sublinhado {
+    text-decoration: none;
+}

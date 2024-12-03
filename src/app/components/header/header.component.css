@@ -1,0 +1,31 @@
+.cabecalho {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 120px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.hamburger {
+    font-size: 3.5em;
+    color: var(--violeta);
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hamburger:hover {
+    color: var(--purpura);
+    transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+    }
+}
