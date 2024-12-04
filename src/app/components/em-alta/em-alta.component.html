@@ -1,0 +1,16 @@
+<section class="em-alta container-fluid pt-5">
+    <h1 class="titulo">Em Alta</h1>
+    <div class="row d-flex justify-content-center my-5">
+        @for (item of produtos; track item.id) {
+        <div class="container-produto p-2 my-3 mx-5 col-3" style="width: 18rem;">
+            <img [src]="item.imagem" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title mb-4">{{item.nome}}</h5>
+                <p class="preco">{{item.preco | currency}}</p>
+                <p class="preco-parcelado">Ou 12x de {{item.precoParcelado | currency}}</p>
+                <button class="botao px-4 py-2">Carrinho <i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        }
+    </div>
+</section>

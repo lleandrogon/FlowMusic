@@ -3,7 +3,7 @@
 }
 
 .logo {
-    width: 120px;
+    width: 160px;
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
@@ -14,18 +14,18 @@
 
 .hamburger {
     font-size: 3.5em;
-    color: var(--violeta);
+    color: var(--amarelo);
     cursor: pointer;
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .hamburger:hover {
-    color: var(--purpura);
+    color: var(--amarelo-escuro);
     transform: rotate(90deg);
 }
 
 @media (max-width: 768px) {
     .logo {
-        width: 100px;
+        width: 130px;
     }
 }

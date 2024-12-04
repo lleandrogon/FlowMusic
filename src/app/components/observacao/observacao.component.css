@@ -1,0 +1,28 @@
+* {
+    color: white;
+}
+
+.observacao {
+    background-color: black;
+    padding: 5px 0;
+}
+
+.mensagem {
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+}
+
+.mapa-Brasil {
+    width: 40px;
+}
+
+@media (max-width: 768px) {
+    .mensagem {
+        font-size: 1.2em;
+    }
+
+    .mapa-Brasil {
+        width: 30px;
+    }
+}

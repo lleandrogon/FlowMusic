@@ -1,8 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-    --purpura: #8E278E;
-    --violeta: #262261;
+    --amarelo: #FECA01;
+    --amarelo-claro: #FAE599;
+    --amarelo-escuro: #3b3000;
+    --preco: #00a000;
 }
 
 .sem-marcadores {
@@ -11,4 +13,67 @@
 
 .sem-sublinhado {
     text-decoration: none;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+.titulo::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    height: 3px;
+    background-color: var(--amarelo);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-produto {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.container-produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1em;
+}
+
+.preco {
+    color: var(--preco);
+    font-size: 1.5em;
+}
+
+.preco-parcelado {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.botao {
+    background-color: var(--amarelo);
+    font-size: 1.1em;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao:hover {
+    background-color: black;
+    color: var(--amarelo);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }

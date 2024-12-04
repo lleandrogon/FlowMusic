@@ -1,0 +1,26 @@
+.home {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.seta {
+    font-size: 2em;
+    color: var(--amarelo-claro);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.seta:hover {
+    background-color: rgba(0, 0, 0, 1.0);
+    color: var(--amarelo);
+}

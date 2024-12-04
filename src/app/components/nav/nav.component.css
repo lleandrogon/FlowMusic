@@ -1,6 +1,5 @@
 .navegacao {
-    background: linear-gradient(to right, var(--purpura), var(--violeta));
-    border: 2px solid black;
+    background: linear-gradient(to right, var(--amarelo), black);
     font-family: monospace;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
