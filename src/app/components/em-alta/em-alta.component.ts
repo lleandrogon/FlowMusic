@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Produto } from '../../models/produto';
 import { CommonModule } from '@angular/common';
+import { ProductCardComponent } from "../product-card/product-card.component";
 
 @Component({
   selector: 'app-em-alta',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ProductCardComponent],
   templateUrl: './em-alta.component.html',
   styleUrl: './em-alta.component.css'
 })
