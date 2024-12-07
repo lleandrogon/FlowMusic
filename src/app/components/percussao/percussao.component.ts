@@ -22,9 +22,9 @@ export class PercussaoComponent {
 
     new Produto("Bateria Eletrônica Waldman Virtual Mesh 9 VM-9", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTH5shTYn4OBSn0dK3Ujx8mO3va_u3H7nGJePuErTPvC30DX3v9u8nM_sVXoe0Jdf2fI8X30FqpuXNDpbXVdbCm0cR3XVFYZzahorAwxO8&usqp=CAE", 1800, ""),
 
-    new Produto("Surdo Luen Percussion 60x18 Verniz 20155 Com Pele Leitosa", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRlhYaTTCDLsgTR0nuC34ZiCY_Ji6_R7p_gso9dqL3MDCZC6cIR780roWR8mOMTdjSQOrvuD715CiEh-czjbwkPQMTMnmOCPgrjz4wXHZxkd7o4L0Wjq4xd&usqp=CAE", 450, ""),
+    new Produto("Surdo Luen Percussion 60x18 Verniz 20155", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRlhYaTTCDLsgTR0nuC34ZiCY_Ji6_R7p_gso9dqL3MDCZC6cIR780roWR8mOMTdjSQOrvuD715CiEh-czjbwkPQMTMnmOCPgrjz4wXHZxkd7o4L0Wjq4xd&usqp=CAE", 450, ""),
 
-    new Produto("Surdo 45x14 Inox Escovado Nat 6 Afin Aro Chp Preto Luen 33184", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRDvi4kqkUkfNtI1VpqHnOgrHzSfz_xEuUtamQ4ZoQS1JrA-A3tk_8o0YpcEvd56PbdxTBe7aoe6UFa3LyIJnNBO_jFUXPkXJGh6snuajJs6M34rtNjUkPkVA&usqp=CAE", 260, ""),
+    new Produto("Surdo 45x14 Inox Nat 6 Afin Aro Chp Preto Luen 33184", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRDvi4kqkUkfNtI1VpqHnOgrHzSfz_xEuUtamQ4ZoQS1JrA-A3tk_8o0YpcEvd56PbdxTBe7aoe6UFa3LyIJnNBO_jFUXPkXJGh6snuajJs6M34rtNjUkPkVA&usqp=CAE", 260, ""),
 
     new Produto("Pandeiro Nylon 10,5 - Torelli TP 309 Injetado", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcREN8EiMs5HvklsolKID5_JheLWqM9d94w4HO60y5yWnQPw2Qi_72OOJDzH-udlGZ3Zx3kBJwgqBPdG-KBgRjDdyTKEaK963RSQfTqaRF0tfAeTi_rkBqx81g&usqp=CAE", 80, ""),
 

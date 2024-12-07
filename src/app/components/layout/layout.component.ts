@@ -9,11 +9,13 @@ import { GuitarrasComponent } from "../guitarras/guitarras.component";
 import { BaixosComponent } from "../baixos/baixos.component";
 import { PercussaoComponent } from "../percussao/percussao.component";
 import { TeclasComponent } from "../teclas/teclas.component";
+import { SoproComponent } from "../sopro/sopro.component";
+import { AmplificadoresComponent } from "../amplificadores/amplificadores.component";
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [HeaderComponent, NavComponent, HomeComponent, ObservacaoComponent, EmAltaComponent, VioloesComponent, GuitarrasComponent, BaixosComponent, PercussaoComponent, TeclasComponent],
+  imports: [HeaderComponent, NavComponent, HomeComponent, ObservacaoComponent, EmAltaComponent, VioloesComponent, GuitarrasComponent, BaixosComponent, PercussaoComponent, TeclasComponent, SoproComponent, AmplificadoresComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })

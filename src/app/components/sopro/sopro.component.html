@@ -1,0 +1,13 @@
+<section class="violoes container-fluid pt-5">
+    <h1 class="titulo text-center">Sopro</h1>
+    <div class="row d-flex justify-content-center my-5">
+        <app-product-card class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center mx-3 my-3"
+            *ngFor="let item of produtos"
+                [imagem]="item.imagem"
+                [nome]="item.nome"
+                [preco]="item.preco"
+                [precoParcelado]="item.precoParcelado"
+        >
+        </app-product-card>
+    </div>
+</section>

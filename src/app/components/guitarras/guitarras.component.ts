@@ -22,9 +22,9 @@ export class GuitarrasComponent {
 
     new Produto ('Guitarra Tagima Les Paul Mirach FL TRD', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRoCgft_-KKmq2gzi-fUOzmmaWjYNlk1Znnd9nQYQlC8E5zZFhqaWR2gRbGZflzKIVXjUucHColUOypSYP5R_lFxZXlPZ46cq4OfdDqoMY7LQz38qr8q9Vp&usqp=CAE', 3400, ''),
 
-    new Produto('Guitarra Squier Telecaster Affinity Series Thinline Sunburst', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS04_Qud2l9ac9BNn-jgee7f0WqGXT5X2Pv-ko6CXYReVl6q-79UiMWnxYXN_db90LrSzhNmHEnQZEWhqyIMhwE4mS9yYlfRkhBNG3Uu0f1&usqp=CAE', 3300, ''),
+    new Produto('Guitarra Squier Affinity Series Thinline Sunburst', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS04_Qud2l9ac9BNn-jgee7f0WqGXT5X2Pv-ko6CXYReVl6q-79UiMWnxYXN_db90LrSzhNmHEnQZEWhqyIMhwE4mS9yYlfRkhBNG3Uu0f1&usqp=CAE', 3300, ''),
 
-    new Produto('Guitarra Affinity Series Stratocaster MN BPG LPB - Squier By Fender', 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQjO6NuynyuOMtT34YZXiO1FTLvGwGn0LCg_Eozjn06hHSkmgEvF4NY4I0UVQwGrKDbq11QaOHJr2uEcJc8M8hJO-l05QdqsoJ8S9yCp_hK&usqp=CAE', 2800, ''),
+    new Produto('Guitarra Affinity Series MN BPG LPB - Squier', 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQjO6NuynyuOMtT34YZXiO1FTLvGwGn0LCg_Eozjn06hHSkmgEvF4NY4I0UVQwGrKDbq11QaOHJr2uEcJc8M8hJO-l05QdqsoJ8S9yCp_hK&usqp=CAE', 2800, ''),
 
     new Produto('Guitarra Sg Michael Hammer GM850N Bk', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYHRWFrACM0utXKkmQy3YJnetWYVfoSYPTSDs3aZfebDnZiCBnCPqaFqY8cAmVoEMnYKdqr_cSgZLKg4m6_QL0PIeeV7ovf4RPECJ9qgAQJx_n79xNvmuI&usqp=CAE', 2100, ''),
 
@@ -34,12 +34,12 @@ export class GuitarrasComponent {
 
     new Produto('Guitarra Tagima TG-530 Sunburst Woodstock', 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2ghE3h1clmJ8D3qywi_5yXFuOs-i9ehaRBjG8H1SmGT_4ZZ4qtBSPANpOC1lzdd_qB3hkfh4CHNX8ZHCfH_3uhEbezFtTA4_CC-KbIlU&usqp=CAE', 900, ''),
 
-    new Produto('Guitarra Stratocaster Memphis MG-30 Owh Olympic White', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQfD8GC7n-Wus1pluwmpBIiAPmeuYo61i0-mEXhPji42SgQsJGOiKaFCOU6h94IsNbsyflp_MTWoWLWeWz0UmIML8CuwwE54ylCQsESBP0hryZebfDqW5micw&usqp=CAE', 800, ''),
+    new Produto('Guitarra Memphis MG-30 Owh Olympic White', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQfD8GC7n-Wus1pluwmpBIiAPmeuYo61i0-mEXhPji42SgQsJGOiKaFCOU6h94IsNbsyflp_MTWoWLWeWz0UmIML8CuwwE54ylCQsESBP0hryZebfDqW5micw&usqp=CAE', 800, ''),
 
     new Produto('Guitarra Telecaster Gte-100 Waldman - Gte-100 Bk', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTLImC6uEX-UcuejM6P9AA6yqaq8pYnAJu6mZdjcqGaQugwshZI42eetB5hxvcN0MJUKT0iG2me-EtzgWLsOEXM7p1FjXxt70JaHVStUbW09-Mc91Oi2egDyA&usqp=CAE', 750, ''),
 
     new Produto('	Guitarra Giannini G-101 Standard Stratocaster 1H2S', 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQcOae4yQAJm-MJrhNUimv9bgnVI8Wm_5QeyKuHNJbXOmEgvwkOXW36kz4r4AgWkYusQZeg_ttRQs45WDd4EdPrTD75ybNb8iJr4cTCzt5gH1c2HQTFfaJv5Q&usqp=CAE', 700, ''),
 
-    new Produto('Guitarra Tonante Valentine’s Preta Corpo Em Alder', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSaza0MklS1axM0OxYXw7_wyg6Wfc3DLEq1mkUtXJsNlMmYqSPTJ9WEhATMZW0Kn2J-BbwZsqkkTFUkb4IIL-1Ggl1h6UandfjVTvY4Y5OL2H3aH4ptMEVVDw&usqp=CAE', 650, ''),
+    new Produto('Guitarra Tonante Valentine’s Preta Corpo Em Alder', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSaza0MklS1axM0OxYXw7_wyg6Wfc3DLEq1mkUtXJsNlMmYqSPTJ9WEhATMZW0Kn2J-BbwZsqkkTFUkb4IIL-1Ggl1h6UandfjVTvY4Y5OL2H3aH4ptMEVVDw&usqp=CAE', 500, ''),
   ]
 }
