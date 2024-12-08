@@ -18,7 +18,7 @@ export class VioloesComponent {
 
     new Produto('Violão Eletroacústico Takamine Gd11mce Mgs Folk', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwq_sY7LeFJgYgfB1EjCNIVoq6ezMxPgetN5E5DBWZZqe0G_p6E4V_r-4M2YHBPaCySnC_7BPBCEwRyul6TybCPGRfYgzRyGRp6uY7xjf1&usqp=CAE', 2500, ''),
 
-    new Produto('Violão Eletroacústico Strinberg AF65C St Folk Fosco', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCxrfA12nYdPPUy788QBzO809o9AUYesJ9y86VoP2JMwySDNsoGbuBgZAUVVJ0RzpR3IU_TjzwsvUtSBjoopEGMs-d9RBtDsT9YEDunaom_qb2VzmDSKNrxw&usqp=CAE', 1050, ''),
+    new Produto('Violão Eletroacústico Strinberg AF65C St Folk', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCxrfA12nYdPPUy788QBzO809o9AUYesJ9y86VoP2JMwySDNsoGbuBgZAUVVJ0RzpR3IU_TjzwsvUtSBjoopEGMs-d9RBtDsT9YEDunaom_qb2VzmDSKNrxw&usqp=CAE', 1050, ''),
 
     new Produto('Violão Tagima Folk Aço Kansas Sb Sunburst', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnY5jBKc5MMVRn-XIEc7GRghxT6b1xLbm9abqF-LtPmE1HEAksNPPZkLguYlEXfJ-su8DfB4CKcUNdDXL2tljjONlbRlFl0rv1p65X56Lgb4Oj2lGHae9x&usqp=CAE', 1000, ''),
 

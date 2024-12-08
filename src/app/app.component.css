@@ -1,0 +1,32 @@
+.carrinho {
+    background-color: var(--amarelo);
+    color: black;
+    font-size: 1.5em;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.carrinho:hover {
+    background-color: black;
+    color: var(--amarelo);
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .carrinho {
+        font-size: 1.4em;
+        padding: 15px;
+    }
+}

@@ -11,14 +11,16 @@ import { PercussaoComponent } from "../percussao/percussao.component";
 import { TeclasComponent } from "../teclas/teclas.component";
 import { SoproComponent } from "../sopro/sopro.component";
 import { AmplificadoresComponent } from "../amplificadores/amplificadores.component";
+import { AcessoriosComponent } from "../acessorios/acessorios.component";
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
-  imports: [HeaderComponent, NavComponent, HomeComponent, ObservacaoComponent, EmAltaComponent, VioloesComponent, GuitarrasComponent, BaixosComponent, PercussaoComponent, TeclasComponent, SoproComponent, AmplificadoresComponent],
+  imports: [RouterOutlet, HeaderComponent, NavComponent, HomeComponent, ObservacaoComponent, EmAltaComponent, VioloesComponent, GuitarrasComponent, BaixosComponent, PercussaoComponent, TeclasComponent, SoproComponent, AmplificadoresComponent, AcessoriosComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css'
 })
 export class LayoutComponent {
-
+  
 }

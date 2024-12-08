@@ -24,7 +24,7 @@ export class GuitarrasComponent {
 
     new Produto('Guitarra Squier Affinity Series Thinline Sunburst', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS04_Qud2l9ac9BNn-jgee7f0WqGXT5X2Pv-ko6CXYReVl6q-79UiMWnxYXN_db90LrSzhNmHEnQZEWhqyIMhwE4mS9yYlfRkhBNG3Uu0f1&usqp=CAE', 3300, ''),
 
-    new Produto('Guitarra Affinity Series MN BPG LPB - Squier', 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQjO6NuynyuOMtT34YZXiO1FTLvGwGn0LCg_Eozjn06hHSkmgEvF4NY4I0UVQwGrKDbq11QaOHJr2uEcJc8M8hJO-l05QdqsoJ8S9yCp_hK&usqp=CAE', 2800, ''),
+    new Produto('Guitarra Tagima Stella Mahogany - NTS', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQNo85XlyugoePEJM7uVxLZgX4ZsyDQbMlCJL1Txrko4LDrC8z6H91RuSMl3rxaTfPJzbfZukj91n4nBSCjiL1W-YIC7-4jzYA7gsnp0KozEDBtJ-WXTistsA&usqp=CAE', 2200, ''),
 
     new Produto('Guitarra Sg Michael Hammer GM850N Bk', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYHRWFrACM0utXKkmQy3YJnetWYVfoSYPTSDs3aZfebDnZiCBnCPqaFqY8cAmVoEMnYKdqr_cSgZLKg4m6_QL0PIeeV7ovf4RPECJ9qgAQJx_n79xNvmuI&usqp=CAE', 2100, ''),
 
