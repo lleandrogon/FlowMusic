@@ -1,21 +1,21 @@
 <nav [ngClass]="{'d-none': !menuVisivel}" class="navegacao container-fluid d-flex d-md-none justify-content-center align-items-center py-3">
     <ul class="d-flex flex-column align-items-center">
-        <li class="li-nav sem-marcadores mb-4"><a class="link-nav sem-sublinhado" href="">Acessórios</a></li>
-        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" href="">Amplificadores</a></li>
-        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" href="">Cordas</a></li>
-        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" href="">Percussão</a></li>
-        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" href="">Teclas</a></li>
-        <li class="li-nav sem-marcadores mt-4"><a class="link-nav sem-sublinhado" href="">Sopro</a></li>
+        <li class="li-nav sem-marcadores mb-4"><a class="link-nav sem-sublinhado" [routerLink]="['/campo-acessorios']">Acessórios</a></li>
+        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-amplificadores']">Amplificadores</a></li>
+        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-cordas']">Cordas</a></li>
+        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-percussao']">Percussão</a></li>
+        <li class="li-nav sem-marcadores my-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-teclas']">Teclas</a></li>
+        <li class="li-nav sem-marcadores mt-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-sopro']">Sopro</a></li>
     </ul>
 </nav>
 
 <nav class="navegacao container-fluid d-md-flex justify-content-center align-items-center py-3 d-none">
     <ul class="d-flex justify-content-center">
-        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" href="">Acessórios</a></li>
-        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" href="">Amplificadores</a></li>
-        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" href="">Cordas</a></li>
-        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" href="">Percussão</a></li>
-        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" href="">Teclas</a></li>
-        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" href="">Sopro</a></li>
+        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" [routerLink]="['/campo-acessorios']">Acessórios</a></li>
+        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-amplificadores']">Amplificadores</a></li>
+        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-cordas']">Cordas</a></li>
+        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-percussao']">Percussão</a></li>
+        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-teclas']">Teclas</a></li>
+        <li class="li-nav sem-marcadores mx-3 mx-lg-4"><a class="link-nav sem-sublinhado" [routerLink]="['campo-sopro']">Sopro</a></li>
     </ul>
 </nav>

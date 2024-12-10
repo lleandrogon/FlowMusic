@@ -1,0 +1,25 @@
+<footer class="container-fluid">
+    <h3 class="text-center pt-4 mt-4 mb-3">Formas de Pagamento</h3>
+    <div class="icon-pagamento-container d-flex justify-content-center py-3">
+        @for (item of pagamentos; track item.nome) {
+            <i class="{{item.imagem}} pagamento mx-4"></i>
+        }
+    </div>
+    <div class="contatos-redes-sociais row d-flex justify-content-center py-4">
+        <div class="col-12 col-md-6 text-center mt-3 mt-md-0">
+            <h4 class="mb-4">Contatos</h4>
+                @for (item of contatos; track item.nome) {
+                    <p><i class="{{item.icon}} me-2 icon-cor"></i><span class="tamanho-descricao">{{item.descricao}}</span></p>
+                }
+        </div>
+        <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
+            <h4 class="mb-4">Redes Sociais</h4>
+            @for (item of redesSociais; track item.nome) {
+                <a [href]="item.link" target="_blank" class="link"><p><i class="{{item.icon}} me-2 icon-cor"></i><span class="tamanho-descricao">{{item.descricao}}</span></p></a>
+            }
+        </div>
+    </div>
+</footer>
+<div class="copyright container-fluid text-center py-2">
+    &copy; {{currentYear}} FlowMusic. Todos os direitos reservados. Desenvolvido por <a [href]="linkedin" target="_blank" class="text-decoration-none"><span class="leandro">Leandro Gonçalves Crisóstomo</span></a>.
+</div>

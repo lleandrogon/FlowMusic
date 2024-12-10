@@ -1,0 +1,52 @@
+* {
+    background-color: #181818;
+    color: white;
+}
+
+.pagamento {
+    color: var(--amarelo-claro);
+}
+
+.contatos-redes-sociais {
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.icon-cor {
+    color: var(--amarelo-claro);
+}
+
+.tamanho-icon {
+    font-size: 24px;
+    color: var(--amarelo-claro);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.tamanho-descricao {
+    font-size: 20px;
+}
+
+.tamanho-descricao:hover {
+    color: var(--amarelo);
+}
+
+.copyright {
+    background-color: black;
+    font-size: 1.2em;
+}
+
+.leandro {
+    background-color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.leandro:hover {
+    color: var(--amarelo);
+}
