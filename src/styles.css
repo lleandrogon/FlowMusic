@@ -86,3 +86,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
+
+.mensagem-temporaria {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 1000;
+    font-weight: bold;
+}

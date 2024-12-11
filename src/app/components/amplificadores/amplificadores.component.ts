@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ProductCardComponent } from "../product-card/product-card.component";
 import { CommonModule } from '@angular/common';
 import { Produto } from '../../models/produto';
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-amplificadores',
@@ -42,4 +43,24 @@ export class AmplificadoresComponent {
 
     new Produto("Amplificador Para Guitarra Mackintec Maxx 15 Preto 6", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQn9XudRmoamAvILhKAWkklphdiqGW27TA5JSlgHlIPudj83bZlHIL3y_-9WbCVe7J0V9NHEvQHdTUUkcKhFR4s_3gi7Eob6l47lfabXwrnlmWqb5gqH-7c&usqp=CAE", 300, "")
   ]
+
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
+    this.produtos.forEach((produto, index) => {
+      produto.id = `produto-${index + 100000}`;
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
+  }
 }

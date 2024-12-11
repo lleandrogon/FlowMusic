@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-product-card',
@@ -13,4 +13,10 @@ export class ProductCardComponent {
     @Input() nome!: string;
     @Input() preco!: number;
     @Input() precoParcelado!: number;
+
+    @Output() addAoCarrinho = new EventEmitter<void>();
+
+    onAddAoCarrinho() {
+      this.addAoCarrinho.emit();
+    }
 }

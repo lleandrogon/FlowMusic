@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
   checkRoute(): void {
     const path = this.router.url; 
 
-    if (path.includes('cordas') || path.includes('percussao') || path.includes('amplificadores') || path.includes('teclas') || path.includes('sopro') || path.includes('acessorios')) {
+    if (path.includes('cordas') || path.includes('percussao') || path.includes('amplificadores') || path.includes('teclas') || path.includes('sopro') || path.includes('acessorios') || path.includes('carrinho')) {
       this.botaoVoltar = true;
     } else {
       this.botaoVoltar = false;

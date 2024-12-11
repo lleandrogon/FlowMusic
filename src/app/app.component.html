@@ -1,4 +1,4 @@
 <router-outlet></router-outlet>
-<button class="carrinho"><i class="fa-solid fa-cart-shopping"></i></button>
+<button class="carrinho" [routerLink]="['carrinho']"><i class="fa-solid fa-cart-shopping"></i></button>
 <button *ngIf="botaoVoltar" (click)="voltar()" class="voltar botao"><i class="fa-solid fa-arrow-left"></i></button>
 <app-footer></app-footer>

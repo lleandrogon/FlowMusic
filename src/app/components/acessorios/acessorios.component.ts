@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ProductCardComponent } from "../product-card/product-card.component";
 import { Produto } from '../../models/produto';
 import { CommonModule } from '@angular/common';
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-acessorios',
@@ -32,4 +33,24 @@ export class AcessoriosComponent {
 
     new Produto("Baqueta 7A Nirvana Liverpool Madeira (par)", "https://m.media-amazon.com/images/I/41PSRzrnKfL._AC_SX569_.jpg", 20, ""),
   ]
+
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
+    this.produtos.forEach((produto, index) => {
+      produto.id = `produto-${index + 100000000}`;
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
+  }
 }

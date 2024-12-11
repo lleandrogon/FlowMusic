@@ -6,6 +6,8 @@ import { CordasComponent } from './components/cordas/cordas.component';
 import { PercussaoComponent } from './components/percussao/percussao.component';
 import { TeclasComponent } from './components/teclas/teclas.component';
 import { SoproComponent } from './components/sopro/sopro.component';
+import { CarrinhoComponent } from './components/carrinho/carrinho.component';
+import { CompraEfetuadaComponent } from './components/compra-efetuada/compra-efetuada.component';
 
 export const routes: Routes = [
     {
@@ -36,4 +38,12 @@ export const routes: Routes = [
         path: "campo-sopro",
         component: SoproComponent
     },
+    {
+        path: "carrinho",
+        component: CarrinhoComponent
+    },
+    {
+        path: "compra-efetuada",
+        component: CompraEfetuadaComponent
+    }
 ];

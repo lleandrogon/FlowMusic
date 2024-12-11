@@ -4,6 +4,6 @@
         <h5 class="card-title mb-3">{{nome}}</h5>
         <p class="preco">{{preco | currency}}</p>
         <p class="preco-parcelado">Ou 12x de {{precoParcelado | currency}}</p>
-        <button class="botao px-4 py-2">Carrinho <i class="fa-solid fa-cart-shopping"></i></button>
+        <button class="botao px-4 py-2" (click)="onAddAoCarrinho()">Carrinho <i class="fa-solid fa-cart-shopping"></i></button>
     </div>
 </div>

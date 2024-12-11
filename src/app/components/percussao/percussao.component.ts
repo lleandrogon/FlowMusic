@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Produto } from '../../models/produto';
 import { ProductCardComponent } from "../product-card/product-card.component";
 import { CommonModule } from '@angular/common';
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-percussao',
@@ -32,4 +33,24 @@ export class PercussaoComponent {
 
     new Produto("Pandeiro 10 Batuka Pele Leitosa Luen Azul", "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcShFqnHZhhts064dB6zI6VjAG6SzhyVGfyg03ogwkTrb59tkixN6NikwcfmZUcNZAWSqpzZBI7BhnAhbW5aKcixGYKzBHac0aTjfgkZqYCg&usqp=CAE", 60, ""),
   ]
+
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
+    this.produtos.forEach((produto, index) => {
+      produto.id = `produto-${index + 10000}`;
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
+  }
 }

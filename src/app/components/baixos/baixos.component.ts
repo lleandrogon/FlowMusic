@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ProductCardComponent } from "../product-card/product-card.component";
 import { Produto } from '../../models/produto';
 import { CommonModule } from '@angular/common';
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-baixos',
@@ -42,4 +43,24 @@ export class BaixosComponent {
 
     new Produto("Baixo Memphis Mb50 Branco Olympic White Ows", 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTvY9R_gT2OQ_LcWijAMi0a_xugTSeg6oJ7LzWn96-vCFEoYu-J8fpfyjggOT_9Nh5hRH2PR_N2UXmOzk1maiXXQnS8QeVby6_EVKeTzlc&usqp=CAE', 950, ''),
   ]
+
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
+    this.produtos.forEach((produto, index) => {
+      produto.id = `produto-${index + 1000}`;
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
+  }
 }

@@ -1,0 +1,51 @@
+.compra-efetuada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.mensagem {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.icone-sucesso {
+    font-size: 4rem;
+    color: #28a745;
+    margin-bottom: 30px;
+}
+
+.botao-voltar {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    font-weight: bold;  
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: black;
+    color: var(--amarelo);
+}

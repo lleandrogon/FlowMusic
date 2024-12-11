@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ProductCardComponent } from "../product-card/product-card.component";
 import { Produto } from '../../models/produto';
 import { CommonModule } from '@angular/common';
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-guitarras',
@@ -42,4 +43,24 @@ export class GuitarrasComponent {
 
     new Produto('Guitarra Tonante Valentine’s Preta Corpo Em Alder', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSaza0MklS1axM0OxYXw7_wyg6Wfc3DLEq1mkUtXJsNlMmYqSPTJ9WEhATMZW0Kn2J-BbwZsqkkTFUkb4IIL-1Ggl1h6UandfjVTvY4Y5OL2H3aH4ptMEVVDw&usqp=CAE', 500, ''),
   ]
+
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
+    this.produtos.forEach((produto, index) => {
+      produto.id = `produto-${index + 100}`;
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
+  }
 }

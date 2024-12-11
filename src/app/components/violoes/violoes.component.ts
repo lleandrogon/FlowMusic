@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Produto } from '../../models/produto';
 import { ProductCardComponent } from "../product-card/product-card.component";
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-violoes',
@@ -32,4 +33,24 @@ export class VioloesComponent {
     
     new Produto('Violão Nylon Acústico VCA106N Yellow Sunburst Vogga', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSBScaDPxwcMUA49XNViX3sAVO28iHSy7hcuI2JHFx306KWGjXzwvhKG3j4JS7J1w9eesNMYZ-9pvPHqBmDBgmQL1Tgbq2Ct4rm1fdH0ouqDqQt2Xmz7ywr&usqp=CAE', 300, ''),
   ]
+
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
+    this.produtos.forEach((produto, index) => {
+      produto.id = `produto-${index + 10}`;
+    });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
+  }
 }

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Produto } from '../../models/produto';
 import { CommonModule } from '@angular/common';
 import { ProductCardComponent } from "../product-card/product-card.component";
+import { CarrinhoService } from '../../services/carrinho.service';
 
 @Component({
   selector: 'app-em-alta',
@@ -21,9 +22,23 @@ export class EmAltaComponent {
     new Produto("Baixo Aria Pro II SB - Cliff Burton - Black 'n' Gold", 'https://ariaguitarsglobal.com/wp-content/uploads/2022/09/sb1000_bk_product_1800x1800.jpg', 37000, '')
   ];
 
-  constructor() {
+  showMessage: boolean = false;
+
+  constructor(private carrinhoService: CarrinhoService) {
     this.produtos.forEach((produto, index) => {
       produto.id = `produto-${index + 1}`;
     });
+  }
+
+  adicionarAoCarrinho(produto: Produto) {
+    this.carrinhoService.adicionarAoCarrinho(produto);
+    this.exibirMensagemTemporaria();
+  }
+
+  private exibirMensagemTemporaria() {
+    this.showMessage = true;
+    setTimeout(() => {
+      this.showMessage = false;
+    }, 2000);
   }
 }

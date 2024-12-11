@@ -1,0 +1,30 @@
+.carrinho {
+    margin-bottom: 245px;
+}
+
+.produto-container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s ease;
+}
+
+.produto-container:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.descricao {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.preco {
+    color: var(--preco);
+    font-size: 1.1em;
+}
+
+.botao-finalizar {
+    font-size: 1.5em;
+    font-weight: bold;
+}

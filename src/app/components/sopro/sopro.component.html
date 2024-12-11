@@ -7,7 +7,10 @@
                 [nome]="item.nome"
                 [preco]="item.preco"
                 [precoParcelado]="item.precoParcelado"
+                (addAoCarrinho)="adicionarAoCarrinho(item)"
         >
         </app-product-card>
     </div>
 </section>
+
+<div *ngIf="showMessage" class="mensagem-temporaria">Produto adicionado ao carrinho!</div>
