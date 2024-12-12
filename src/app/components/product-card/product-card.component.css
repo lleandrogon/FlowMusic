@@ -11,3 +11,9 @@
 .card-img-top:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+    .container-produto {
+        margin: 0 25px;
+    }
+}

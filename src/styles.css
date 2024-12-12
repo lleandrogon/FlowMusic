@@ -98,3 +98,9 @@
     z-index: 1000;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .botao {
+        font-size: 1.2em;
+    }
+}
