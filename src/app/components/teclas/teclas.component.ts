@@ -13,13 +13,13 @@ import { CarrinhoService } from '../../services/carrinho.service';
 })
 export class TeclasComponent {
   produtos: Produto[] = [
-    new Produto("Piano Elétrico 88 Teclas Spring Pd-88", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxDGbigquFt4y7UZE4gtAU9ym5xZZjk7Zrg0VhcSVFEB2fUFtfk3Pinbo3gi5Q57YnKzonU5-rUzPVLTWBTTuu1G-QS34N3DOosVazust8MckgputcFtmVww&usqp=CAE", 3500, ""),
+    new Produto("Piano Digital Elétrico Spring Pd-88", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQxDGbigquFt4y7UZE4gtAU9ym5xZZjk7Zrg0VhcSVFEB2fUFtfk3Pinbo3gi5Q57YnKzonU5-rUzPVLTWBTTuu1G-QS34N3DOosVazust8MckgputcFtmVww&usqp=CAE", 3500, ""),
 
     new Produto("Piano Digital 88 Teclas Waldman Kg-8800 Preto", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRFIZ3cf4wVxAkC7CT6ZWsUF1h3IDBhFeLlBp_n9qhIkxAMkxb5Q8vDfib6A5vXIx6-Bif59Ogc5ERelKvzOnorWWHbI9z6nq1ZFMcyailCWBTseVtiL2Jd&usqp=CAE", 2800, ""),
 
     new Produto("Teclado Elétrico Yamaha Psr E473 Preto", "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRbkZqq1lnBR__MF-3X0WIKTxzcirQrdQWG7klcSDWzzTu3MK2cSDIUe95AdrJrCHWwL0x6tfzT95-w2SiOKYnmoomZyz4myqUkvF7UZgYWhVESa-IHJm6iiQ&usqp=CAE", 2200, ""),
 
-    new Produto("Teclado Controlador Alesis VI61 61 Teclas", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR4IQbAvt9OrYkx-uQrIDpDHidk_yqq3ZfvkZ4G_6JZjvPJqyiwzjVFeJOElKnaz6hjXKuhJfiU8omRNGDmZBdZArlxNpj2Iq9r8Pag-k8&usqp=CAE", 1100, ""),
+    new Produto("Teclado Elétrico Controlador Alesis VI61", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR4IQbAvt9OrYkx-uQrIDpDHidk_yqq3ZfvkZ4G_6JZjvPJqyiwzjVFeJOElKnaz6hjXKuhJfiU8omRNGDmZBdZArlxNpj2Iq9r8Pag-k8&usqp=CAE", 1100, ""),
 
     new Produto("Keypower Teclado Elétrico Musical Kp500", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTcYAJ9scd2jPsb-WZoi2Vbli77zivfFYtvRpqB3mP8_h5PJZE8bFSpu5m10Gnu8bOBJtN6rBGF8-IfyGZSiJSp1Ny8vbvS2rda7h-7Zs8vC3_yN-MdSX-epA&usqp=CAE", 850, ""),
 

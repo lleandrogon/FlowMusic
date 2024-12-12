@@ -23,23 +23,23 @@ export class VioloesComponent {
 
     new Produto('Violão Fender Eletroacústico Player Natural', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS0hzQEjjEKP4NzT8u_MBJsmxeRVf9AMylrzVyLxGrCVHBswIxNNoKcK6BGFwtB8c4S3nfcMCk1RX44kyZF7vZyoZJAzDTDDBToFNhyhbVKcwopcUTdMnuv&usqp=CAE', 3000, ''),
 
-    new Produto('Violão Eletroacústico Takamine Gd11mce Mgs Folk', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwq_sY7LeFJgYgfB1EjCNIVoq6ezMxPgetN5E5DBWZZqe0G_p6E4V_r-4M2YHBPaCySnC_7BPBCEwRyul6TybCPGRfYgzRyGRp6uY7xjf1&usqp=CAE', 2500, ''),
+    new Produto('Violão Eletroacústico Takamine Gd11mce', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRwq_sY7LeFJgYgfB1EjCNIVoq6ezMxPgetN5E5DBWZZqe0G_p6E4V_r-4M2YHBPaCySnC_7BPBCEwRyul6TybCPGRfYgzRyGRp6uY7xjf1&usqp=CAE', 2500, ''),
 
     new Produto('Violão Tagima Modena Nylon Eletrico Cherryburst', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQHC72gOn2-B3UBkG-n5cR3mPZSXjfQAqpZagMqosTgJZkf-vlWMaaKI8bMPIuOoRXRAFLx_OZjOrx2am1XAcB77NyzHan_o_4ycwUfrZbH&usqp=CAE', 2300, ''),
 
     new Produto('Violão Ibanez Eletrico Mogno Pc12Mhce Opn', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTDDnlEu2rIdoDfRB-moYSZscl0i0DRnM4ZeQ8EEVwEVfuQkxm6kLF8iY5VTGqBPO760GjUQGGrmSa9O_zzMwKjU98e7AI-cfHkscb6d0J5IZ1oD0sXpA6x&usqp=CAE', 1700, ''),
 
-    new Produto('Violão Eletroacústico Strinberg AF65C St Folk', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCxrfA12nYdPPUy788QBzO809o9AUYesJ9y86VoP2JMwySDNsoGbuBgZAUVVJ0RzpR3IU_TjzwsvUtSBjoopEGMs-d9RBtDsT9YEDunaom_qb2VzmDSKNrxw&usqp=CAE', 1050, ''),
+    new Produto('Violão Eletroacústico Strinberg AF65C', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQCxrfA12nYdPPUy788QBzO809o9AUYesJ9y86VoP2JMwySDNsoGbuBgZAUVVJ0RzpR3IU_TjzwsvUtSBjoopEGMs-d9RBtDsT9YEDunaom_qb2VzmDSKNrxw&usqp=CAE', 1050, ''),
 
     new Produto('Violão Tagima Folk Aço Kansas Sb Sunburst', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSnY5jBKc5MMVRn-XIEc7GRghxT6b1xLbm9abqF-LtPmE1HEAksNPPZkLguYlEXfJ-su8DfB4CKcUNdDXL2tljjONlbRlFl0rv1p65X56Lgb4Oj2lGHae9x&usqp=CAE', 1000, ''),
 
-    new Produto('Violão Eletroacústico Nylon Tagima Vegas Preto', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfjT81FL5h37TMGFwXpLBdnYjKybUcqMEFwmKIiefuJMSgho00qUfHgOs1PKWJv_AnN5_qDWyiWUsjUgdgKgDdN2HjKZ72-zb369DyQ90&usqp=CAE', 950, ''),
+    new Produto('Violão Eletroacústico Nylon Tagima Vegas', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfjT81FL5h37TMGFwXpLBdnYjKybUcqMEFwmKIiefuJMSgho00qUfHgOs1PKWJv_AnN5_qDWyiWUsjUgdgKgDdN2HjKZ72-zb369DyQ90&usqp=CAE', 950, ''),
 
-    new Produto('Violão J White Elétrico Western Preto AH-50T Bk - Phx', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQDmMZbNtllAfAguLF1bFRTEqAfcCUjOxNhcCkz7hVfuv5ou9kXzvEsCrlA6WN_iezjpiQddXb15sAd0b0DaDBXWKk6KwtnFH-WfnEb7rtU&usqp=CAE', 900, ''),
+    new Produto('Violão J White Elétrico Western AH-50T - Phx', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQDmMZbNtllAfAguLF1bFRTEqAfcCUjOxNhcCkz7hVfuv5ou9kXzvEsCrlA6WN_iezjpiQddXb15sAd0b0DaDBXWKk6KwtnFH-WfnEb7rtU&usqp=CAE', 900, ''),
 
-    new Produto('Violão Strinberg BE30C Berlin Branco', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4kjQjH8ZoOGniY3w6sQWiLd2mPV8ztn0542M_HBCvXJVAeHr1OFjyy-tk9oNHs0L1egtu2BX7ro8zjyJMlQxqMPDCaLr6MI91JGwEP0XVhtJzgMKWKF0CgA&usqp=CAE', 850, ''),
+    new Produto('Violão Eletroacústico Strinberg BE30C', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4kjQjH8ZoOGniY3w6sQWiLd2mPV8ztn0542M_HBCvXJVAeHr1OFjyy-tk9oNHs0L1egtu2BX7ro8zjyJMlQxqMPDCaLr6MI91JGwEP0XVhtJzgMKWKF0CgA&usqp=CAE', 850, ''),
 
-    new Produto('Violão Eletroacústico Nylon Giannini Nf-14 Bk Preto', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRUPD3KlXlM-r0OyoR5x2MSGo99GqOBt-jZaxmggJiw5s4hf4dQcL_Kpl6dhWafQfhptwDYdNYEIIluwNzie6t2C2ufjgZc_J9ahppViao&usqp=CAE', 650, ''),
+    new Produto('Violão Eletroacústico Giannini Nf-14', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRUPD3KlXlM-r0OyoR5x2MSGo99GqOBt-jZaxmggJiw5s4hf4dQcL_Kpl6dhWafQfhptwDYdNYEIIluwNzie6t2C2ufjgZc_J9ahppViao&usqp=CAE', 650, ''),
     
     new Produto('Violão Nylon Acústico VCA106N Sunburst Vogga', 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSBScaDPxwcMUA49XNViX3sAVO28iHSy7hcuI2JHFx306KWGjXzwvhKG3j4JS7J1w9eesNMYZ-9pvPHqBmDBgmQL1Tgbq2Ct4rm1fdH0ouqDqQt2Xmz7ywr&usqp=CAE', 300, ''),
   ]

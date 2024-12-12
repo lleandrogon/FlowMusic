@@ -15,7 +15,7 @@ export class AcessoriosComponent {
   produtos: Produto[] = [
     new Produto("Pedaleira de Efeitos para Baixo Zoom B1Xon", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTb_Nubq8fNn342Wu7IcEdJbAyWCnZvfBQP0nRB-4dRMTttNQvGV5PtDPxl4j-MTqUBxIsH8K4yxlc7_b3eY_Wos4PRpIeQjub3S-pQwUnoJTCXhPuHu5fKBA&usqp=CAE", 750, ""),
 
-    new Produto("Pedal de Efeito Boss Ds 1 Distortion", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSIr0UhtwmgRVztqVBCLwmBJsSNrO3NOs9q8AxIweP5ta71IBKa3fkEZdXVYGtqqcnKgltjfirnuWtnLojeFPQRUPLrEREUFDpIzoXuYjh1NqQJgiUIikk8&usqp=CAE", 500, ""),
+    new Produto("Pedal de Efeito Distorção Boss Ds 1 Distortion", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSIr0UhtwmgRVztqVBCLwmBJsSNrO3NOs9q8AxIweP5ta71IBKa3fkEZdXVYGtqqcnKgltjfirnuWtnLojeFPQRUPLrEREUFDpIzoXuYjh1NqQJgiUIikk8&usqp=CAE", 500, ""),
 
     new Produto("Pedal Yuer Rf-10 Series Analog Chorus", "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSkAfepIJ6rSKoA1KW-XITBMaDm9jcPjfhxNPnpqo6mypQhV22cmy1ikYzYQQTi_pOEZRmWgKkjRdEDFCvHfglDfDNDrqpPQN8WYQywt7gYlAOxSv6uDlD6&usqp=CAE", 250, ""),
 

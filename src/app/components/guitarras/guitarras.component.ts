@@ -21,7 +21,7 @@ export class GuitarrasComponent {
 
     new Produto('Guitarra Jackson JS Series King V JS32T Ferrari Red', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQC-k_v0KMxXJAq0XHeANIcethxmODYOExezdDRv00VN68C93XXzHLHw_Rn-lblJUA8Rh2sxRt_zRjuRE0hr0yZXhXJ4KEPKKuusNiqeTPBRRvzaRrzTrq_dw&usqp=CAE', 5200, ''),
 
-    new Produto ('Guitarra Tagima Les Paul Mirach FL TRD', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRoCgft_-KKmq2gzi-fUOzmmaWjYNlk1Znnd9nQYQlC8E5zZFhqaWR2gRbGZflzKIVXjUucHColUOypSYP5R_lFxZXlPZ46cq4OfdDqoMY7LQz38qr8q9Vp&usqp=CAE', 3400, ''),
+    new Produto ('Guitarra Tagima Les Paul Mirach FL TRD Red', 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRoCgft_-KKmq2gzi-fUOzmmaWjYNlk1Znnd9nQYQlC8E5zZFhqaWR2gRbGZflzKIVXjUucHColUOypSYP5R_lFxZXlPZ46cq4OfdDqoMY7LQz38qr8q9Vp&usqp=CAE', 3400, ''),
 
     new Produto('Guitarra Squier Affinity Series Thinline Sunburst', 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS04_Qud2l9ac9BNn-jgee7f0WqGXT5X2Pv-ko6CXYReVl6q-79UiMWnxYXN_db90LrSzhNmHEnQZEWhqyIMhwE4mS9yYlfRkhBNG3Uu0f1&usqp=CAE', 3300, ''),
 

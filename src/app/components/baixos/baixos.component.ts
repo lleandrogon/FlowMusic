@@ -37,7 +37,7 @@ export class BaixosComponent {
 
     new Produto("Baixo Tagima Woodstock Tw-65 Bk PJ Preto", 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQgUYVsFiPe4n0ePPj5QKX3xp7AP5M4RHa2RQK1TW6HbQ4fQirD0MJ0JWZO0z4xNGOaSIWc7hXTvu-F8DnmKTnW7Jy2JWzH_vgtVmzPC9Lr9ArWrpHZYwhO&usqp=CAE', 1200, ''),
 
-    new Produto("Baixo Tagima Tw-66 Lf/Bk Bs Woodstock", 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThz18Cc6f1wXZ6Pv6CYpgRJJZlMJjroK1-P5ttHexfZvYar06k4si8gxcHx_-qHzNuKfh7Q3yO7XWSzv9tlICjenv2w9AEMr3NJhg56tgRxeX3Z1w0j83wSw&usqp=CAE', 1100, ''),
+    new Produto("Baixo Tagima Tw-66 Lf/Bk Bs Woodstock Amarelo", 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThz18Cc6f1wXZ6Pv6CYpgRJJZlMJjroK1-P5ttHexfZvYar06k4si8gxcHx_-qHzNuKfh7Q3yO7XWSzv9tlICjenv2w9AEMr3NJhg56tgRxeX3Z1w0j83wSw&usqp=CAE', 1100, ''),
 
     new Produto("Baixo Passivo Phx Precision Bass Sunburst", 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQCrvwjBE44gy5Ns3B0IPqyBq0uNQkv2zMQPBuiqdKqIi9nD0DF0s_m-cxIhyKKxHgnyIbWyZyoFvmbMfJGYmSkDpYNLKPyiukKxAOY-C-D9arAQQCgFwA3pA&usqp=CAE', 1000, ''),
 

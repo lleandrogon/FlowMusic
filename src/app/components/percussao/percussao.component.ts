@@ -29,7 +29,7 @@ export class PercussaoComponent {
 
     new Produto("Bateria Eletrônica Waldman Mesh 9 VM-9", "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTH5shTYn4OBSn0dK3Ujx8mO3va_u3H7nGJePuErTPvC30DX3v9u8nM_sVXoe0Jdf2fI8X30FqpuXNDpbXVdbCm0cR3XVFYZzahorAwxO8&usqp=CAE", 1800, ""),
 
-    new Produto("Bateria Rmv Econômica Compacta Bumbo 18", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9D9ymsHNPuUUObiApwgtuZHfF9Tdoy8QQ6b7Gbr_wS257-YSiYghKhf8iwapQlLr18OBZAB-wUlOVL46Xkmv9_yJOVXkpLP1IKshWzkJG-MWZQXXy0X5RsQ&usqp=CAE", 1600, ""),
+    new Produto("Bateria Rmv Compacta Bumbo 18", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9D9ymsHNPuUUObiApwgtuZHfF9Tdoy8QQ6b7Gbr_wS257-YSiYghKhf8iwapQlLr18OBZAB-wUlOVL46Xkmv9_yJOVXkpLP1IKshWzkJG-MWZQXXy0X5RsQ&usqp=CAE", 1600, ""),
 
     new Produto("Surdo Luen Percussion 60x18 Verniz 20155", "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRlhYaTTCDLsgTR0nuC34ZiCY_Ji6_R7p_gso9dqL3MDCZC6cIR780roWR8mOMTdjSQOrvuD715CiEh-czjbwkPQMTMnmOCPgrjz4wXHZxkd7o4L0Wjq4xd&usqp=CAE", 450, ""),
 
@@ -37,7 +37,7 @@ export class PercussaoComponent {
 
     new Produto("Pandeiro Nylon 10,5 - Torelli TP 309 Injetado", "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcREN8EiMs5HvklsolKID5_JheLWqM9d94w4HO60y5yWnQPw2Qi_72OOJDzH-udlGZ3Zx3kBJwgqBPdG-KBgRjDdyTKEaK963RSQfTqaRF0tfAeTi_rkBqx81g&usqp=CAE", 80, ""),
 
-    new Produto("Pandeiro 10 Polegadas Pele Leitosa Rmv Pppa00015", "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS2bEBAT8OQJFMFtE9SZ-UsZIP-q4UYRVDEoLDk7C7k10FMJHNATByA71GZEBhUlJkvyhsvIjI4aS5bfCnp5VThd3nuNmTHwJzYYnjTZ575QG3ifT_8RoK7&usqp=CAE", 70, ""),
+    new Produto("Pandeiro 10 Polegadas Pele Leitosa Rmv Pppa15", "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS2bEBAT8OQJFMFtE9SZ-UsZIP-q4UYRVDEoLDk7C7k10FMJHNATByA71GZEBhUlJkvyhsvIjI4aS5bfCnp5VThd3nuNmTHwJzYYnjTZ575QG3ifT_8RoK7&usqp=CAE", 70, ""),
 
     new Produto("Pandeiro 10 Batuka Pele Leitosa Luen Azul", "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcShFqnHZhhts064dB6zI6VjAG6SzhyVGfyg03ogwkTrb59tkixN6NikwcfmZUcNZAWSqpzZBI7BhnAhbW5aKcixGYKzBHac0aTjfgkZqYCg&usqp=CAE", 60, ""),
 
