@@ -36,36 +36,11 @@
     margin-right: auto;
 }
 
-.container-produto {
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    background-color: #fff;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease, background-color 0.3s ease;
-    overflow: hidden;
-}
-
-.container-produto:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-
-.card-title {
-    font-size: 1em;
-    margin-top: 10px;
-}
-
 .preco {
     color: var(--preco);
     font-size: 1.6em;
     font-weight: 500;
     margin-bottom: 5px;
-}
-
-.preco-parcelado {
-    font-size: 1em;
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 15px;
 }
 
 .botao {
@@ -97,6 +72,11 @@
     border-radius: 10px;
     z-index: 1000;
     font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {

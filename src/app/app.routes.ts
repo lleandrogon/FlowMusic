@@ -8,6 +8,7 @@ import { TeclasComponent } from './components/teclas/teclas.component';
 import { SoproComponent } from './components/sopro/sopro.component';
 import { CarrinhoComponent } from './components/carrinho/carrinho.component';
 import { CompraEfetuadaComponent } from './components/compra-efetuada/compra-efetuada.component';
+import { FormularioComponent } from './components/formulario/formulario.component';
 
 export const routes: Routes = [
     {
@@ -41,6 +42,10 @@ export const routes: Routes = [
     {
         path: "carrinho",
         component: CarrinhoComponent
+    },
+    {
+        path: "formulario",
+        component: FormularioComponent
     },
     {
         path: "compra-efetuada",

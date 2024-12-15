@@ -15,12 +15,12 @@ export class FooterComponent {
 
   pagamentos: Pagamento[] = [
     {
-      nome: "Cartão de Crédito",
+      nome: "Cartão",
       imagem: "fa-solid fa-credit-card fs-2"
     },
     {
-      nome: "Cartão Visa",
-      imagem: "fa-brands fa-cc-visa fs-2"
+      nome: "Boleto",
+      imagem: "fa-solid fa-barcode fs-2"
     },
     {
       nome: "pix",

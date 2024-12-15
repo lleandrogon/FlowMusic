@@ -1,0 +1,45 @@
+.campo-form {
+    border: 3px solid var(--amarelo-escuro);
+    border-radius: 30px;
+    padding: 35px 30px;
+    margin: 0 15px;
+}
+
+.titulo-form {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+
+.titulo-form::after {
+    content: "";
+    display: block;
+    margin-top: 10px;
+    width: 100px;
+    height: 3px;
+    background-color: var(--amarelo);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input, select {
+    border: 2px solid var(--amarelo-escuro);
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: var(--amarelo-claro);
+    outline: none;
+    box-shadow: 0 0 5px rgba(230, 40, 19, 0.5);
+}
+
+.botao-form-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}

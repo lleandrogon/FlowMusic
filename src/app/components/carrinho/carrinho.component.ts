@@ -30,6 +30,6 @@ export class CarrinhoComponent implements OnInit {
   }
 
   finalizarCompra(): void {
-    this.router.navigate(['/compra-efetuada']);
+    this.router.navigate(['/formulario']);
   }
 }

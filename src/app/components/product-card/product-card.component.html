@@ -1,9 +1,19 @@
-<div class="container-produto p-4 my-3" style="width: 800px;">
+<div class="container-produto p-4 my-3">
     <img [src]="imagem" class="card-img-top" alt="{{nome}}">
-    <div class="card-body text-center">
-        <h5 class="card-title mb-3">{{nome}}</h5>
-        <p class="preco">{{preco | currency}}</p>
-        <p class="preco-parcelado">Ou 12x de {{precoParcelado | currency}}</p>
-        <button class="botao px-4 py-2" (click)="onAddAoCarrinho()">Carrinho <i class="fa-solid fa-cart-shopping"></i></button>
+    <div class="card-body">
+        <div class="text-center">
+            <div class="titulo-container">
+                <h5 class="card-title mb-3">{{nome}}</h5>
+            </div>
+            <div class="preco-container">
+                <p class="preco">{{preco | currency}}</p>
+                <p class="preco-parcelado">Ou 12x de {{precoParcelado | currency}}</p>
+            </div>
+        </div>
+        <div class="botao-container">
+            <button class="botao-card botao px-4 py-2" (click)="onAddAoCarrinho()">
+                Carrinho <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+        </div>
     </div>
 </div>
