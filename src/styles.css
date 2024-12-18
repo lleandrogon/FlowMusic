@@ -62,6 +62,10 @@
     cursor: pointer;
 }
 
+.botao:disabled {
+    opacity: 0.5;
+}
+
 .mensagem-temporaria {
     position: fixed;
     bottom: 10px;

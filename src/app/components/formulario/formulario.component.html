@@ -5,25 +5,71 @@
         <h3 class="titulo-form mb-4">Informações Pessoais</h3>
         <div class="mb-3 col-md-6">
             <label for="nome">Nome</label>
-            <input type="text" class="form-control" id="nome" formControlName="nome">
+            <input type="text" class="form-control" id="nome" formControlName="nome" autocomplete="off">
+            @if (dadosForm.controls['nome'].touched && dadosForm.controls['nome'].errors?.['required']) {
+            <div class="alert alert-warning d-flex justify-content-center mt-2">
+                <strong>Nome é obrigatório!</strong>
+            </div>
+            } @else if (dadosForm.controls['nome'].touched &&
+            dadosForm.controls['nome'].errors?.['minlength']) {
+            <div class="alert alert-warning d-flex justify-content-center mt-2">
+                <strong>Nome deve ter pelo menos 2 caracteres!</strong>
+            </div>
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="sobrenome">Sobrenome</label>
-            <input type="text" class="form-control" id="sobrenome" formControlName="sobrenome">
+            <input type="text" class="form-control" id="sobrenome" formControlName="sobrenome" autocomplete="off">
+            @if (dadosForm.controls['sobrenome'].touched && dadosForm.controls['sobrenome'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Sobrenome é obrigatório!</strong>
+                </div>
+            } @else if (dadosForm.controls['sobrenome'].touched && dadosForm.controls['sobrenome'].errors?.['minlength']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Sobrenome deve ter pelo menos 2 caracteres!</strong>
+                </div>    
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="email">Email</label>
-            <input type="text" class="form-control" id="email" formControlName="email">
+            <input type="text" class="form-control" id="email" formControlName="email" autocomplete="off">
+            @if (dadosForm.controls['email'].touched && dadosForm.controls['email'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Email é obrigatório!</strong>
+                </div>
+            } @else if (dadosForm.controls['email'].touched && dadosForm.controls['email'].errors?.['email']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Email inválido!</strong>
+                </div>
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="telefone">Telefone</label>
-            <input type="number" class="form-control" id="telefone" formControlName="telefone">
+            <input type="text" class="form-control" id="telefone" formControlName="telefone" autocomplete="off" placeholder="10 ou 11 dígitos.">
+            @if (dadosForm.controls['telefone'].touched && dadosForm.controls['telefone'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Telefone é obrigatório!</strong>
+                </div>
+            } @else if (dadosForm.controls['telefone'].touched && dadosForm.controls['telefone'].errors?.['pattern']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Telefone deve conter 10 ou 11 dígitos!</strong>
+                </div>
+            }
         </div>
 
         <h3 class="titulo-form mt-5 mb-4">Local de Entrega</h3>
         <div class="mb-3 col-md-6">
             <label for="endereco">Endereço</label>
-            <input type="text" class="form-control" id="endereco" formControlName="endereco">
+            <input type="text" class="form-control" id="endereco" formControlName="endereco" autocomplete="off">
+            @if (dadosForm.controls['endereco'].touched && dadosForm.controls['endereco'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Endereço é obrigatório!</strong>
+                </div>
+            } @else if (dadosForm.controls['endereco'].touched && dadosForm.controls['endereco'].errors?.['minlength']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Endereço deve ter pelo menos 5 caracteres!</strong>
+                </div>    
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="estado">Estado</label>
@@ -60,19 +106,46 @@
         </div>
         <div class="mb-3 col-md-6">
             <label for="cidade">Cidade</label>
-            <input type="text" class="form-control" id="cidade" formControlName="cidade">
+            <input type="text" class="form-control" id="cidade" formControlName="cidade" autocomplete="off">
+            @if (dadosForm.controls['cidade'].touched && dadosForm.controls['cidade'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Cidade é obrigatória!</strong>
+                </div>
+            } @else if (dadosForm.controls['cidade'].touched && dadosForm.controls['cidade'].errors?.['minlength']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Cidade deve ter pelo menos 2 caracteres!</strong>
+                </div>    
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="bairro">Bairro</label>
-            <input type="text" class="form-control" id="bairro" formControlName="bairro">
+            <input type="text" class="form-control" id="bairro" formControlName="bairro" autocomplete="off">
+            @if (dadosForm.controls['bairro'].touched && dadosForm.controls['bairro'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Bairro é obrigatório!</strong>
+                </div>
+            } @else if (dadosForm.controls['bairro'].touched && dadosForm.controls['bairro'].errors?.['minlength']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>Bairro deve ter pelo menos 2 caracteres!</strong>
+                </div>    
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="cep">CEP</label>
-            <input type="number" class="form-control" id="cep" formControlName="cep">
+            <input type="text" class="form-control" id="cep" formControlName="cep" autocomplete="off">
+            @if (dadosForm.controls['cep'].touched && dadosForm.controls['cep'].errors?.['required']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>CEP é obrigatório!</strong>
+                </div>
+            } @else if (dadosForm.controls['cep'].touched && dadosForm.controls['cep'].errors?.['pattern']) {
+                <div class="alert alert-warning d-flex justify-content-center mt-2">
+                    <strong>CEP deve ter 8 caracteres!</strong>
+                </div>    
+            }
         </div>
         <div class="mb-3 col-md-6">
             <label for="complemento">Complemento (Opcional)</label>
-            <input type="text" class="form-control" id="complemento" formControlName="complemento">
+            <input type="text" class="form-control" id="complemento" formControlName="complemento" autocomplete="off">
         </div>
 
         <h3 class="titulo-form mt-5 mb-4">Pagamento</h3>
@@ -105,7 +178,7 @@
 
         <div class="botao-form-container">
             <button type="button" class="botao mx-1" (click)="limparFormulario()">Apagar</button>
-            <button type="button" class="botao mx-1">Confirmar</button>
+            <button type="button" class="botao mx-1" [disabled]="!dadosForm.valid" (click)="enviarFormulario()">Confirmar</button>
         </div>
 
     </form>

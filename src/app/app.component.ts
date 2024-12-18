@@ -11,7 +11,9 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
+
   botaoVoltar = false;
+  mostrarCarrinho = true;
 
   constructor(private router: Router, private route: ActivatedRoute) {}
 
@@ -29,6 +31,12 @@ export class AppComponent implements OnInit {
     } else {
       this.botaoVoltar = false;
     }
+
+    if (path.includes('compra-efetuada')) {
+      this.mostrarCarrinho = false;
+    } else {
+      this.mostrarCarrinho = true;
+    }
   }
 
   voltar(): void {
@@ -40,10 +48,14 @@ export class AppComponent implements OnInit {
     const scrollPosition = window.scrollY;
     const carrinho = document.querySelector('.carrinho') as HTMLElement;
     
-    if (scrollPosition > 50) { // Ajuste esse valor conforme necessário
-      carrinho.classList.add('aparecer');
+    if (this.mostrarCarrinho) {
+      if (scrollPosition > 50) {
+        carrinho.classList.add('aparecer');
+      } else {
+        carrinho.classList.remove('aparecer');
+      }
     } else {
-      carrinho.classList.remove('aparecer');
+      carrinho?.classList.remove('aparecer');
     }
   }
 }
